@@ -141,6 +141,7 @@ main .hero-cards .cards .card b {
   padding-bottom: 15px;
 }
 main .hero-cards .cards .card .mes {
+  max-width: 250px;
   padding-bottom: 15px;
 }
 main .hero-cards .cards .card button {

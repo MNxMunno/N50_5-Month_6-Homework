@@ -144,7 +144,9 @@ main {
           padding-bottom: 15px;
         }
         .mes {
+          max-width: 250px;
           padding-bottom: 15px;
+          // text-overflow: ellipsis;
         }
 
         button {
