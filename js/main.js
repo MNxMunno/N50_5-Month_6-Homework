@@ -45,7 +45,7 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
   let newUser = {
     id: `id-${new Date().getTime()}`,
-    image: inputImg.value,
+    // image: inputImg.value,
     name: inputName.value,
     email: inputEmail.value,
     text: inputText.value,
@@ -53,7 +53,7 @@ form.addEventListener("submit", (e) => {
   };
   DATA.push(newUser);
   createCard(DATA);
-  inputImg.value = "";
+  // inputImg.value = "";
   inputName.value = "";
   inputEmail.value = "";
   inputText.value = "";
