@@ -51,7 +51,7 @@ form.addEventListener("submit", (e) => {
     text: inputText.value,
     message: message.value,
   };
-  DATA.push(newUser);
+  DATA.unshift(newUser);
   createCard(DATA);
   // inputImg.value = "";
   inputName.value = "";
