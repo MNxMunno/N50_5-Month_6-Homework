@@ -90,6 +90,7 @@ main .main .register .form button {
   cursor: pointer;
 }
 main .hero-cards {
+  padding-top: 15px;
   padding-bottom: 10px;
 }
 main .hero-cards .cards {
